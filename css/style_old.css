@@ -1,0 +1,340 @@
+/************ MAIN ***********/
+
+/*********** HEADER **********/
+/**** AD ****/
+#header .block_ad {
+	margin: 30px 10px;
+	width: 728px;
+	height: 90px;
+	background: #000;
+	color: #fff;
+	float: right;
+}
+
+/********** SIDEBAR **********/
+/**** LOGIN ****/
+#sidebar .block .content .login_actions {
+	height: 25px;
+}
+
+#sidebar .block .content input.text{
+	width: 311px;
+}
+
+#sidebar .block .content .login_actions a {
+	float: left;
+}
+
+#sidebar .block .content .login_actions  input.login_btn{
+	float: right;
+}
+
+/**** PROFILES ****/
+#sidebar .block .content .profile_stack {
+	width:100%;
+	padding: 5px 0;
+	display: inline-block;
+	border-top: 1px solid #8C8C8C;
+}
+
+#sidebar .block .content .profile_stack:first-child {
+	border-top: 0px;
+}
+	#sidebar .block .content .profile_stack .avatar {
+		float: left;
+		margin-right: 5px;
+	}
+	
+	#sidebar .block .content .profile_stack .name {
+		float: left;
+		font-size: 19px;
+	}
+
+#sidebar .block .content .profile_stack.active {
+	background: url(../images/blue_active.png);
+}
+
+/**** AD ****/
+#sidebar .block_ad {
+	background: #000;
+	height: 280px;
+	width: 336x;
+	color: #fff;
+	margin: 0 0 12px;
+}
+
+/************** MAIN *************/
+/**** AVATAR ****/
+#main .avatars a, #main .avatar a:hover {
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#main .avatars a:first-child  {
+	margin-left: 0px;
+}
+
+#main  .avatars a .block {
+	float:left;
+	color: #000;
+}
+
+#main .avatars a .block:hover {
+	background: url(../images/blue_shiny.png);
+}
+
+#main  .avatars a .block.avatar {
+	float: left;
+	min-height: 32px;
+	margin: 0 5px 8px 0;
+	width: 150px;
+}
+	#main  .avatars a .block.avatar .image_holder {
+		float: left;
+		margin-bottom: 5px;
+	}
+	
+	#main  .avatars a .block.avatar .image_center {
+		height: 30px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	#main  .avatars a .block.avatar .name {
+		float: left;
+		line-height: 39px;
+		margin-left: 7px;
+		padding-right: 4px;
+	}
+/**** POKEMON CONPACT ****/
+#main .block.shadow {
+	background: url(../images/blue_shadow.png);
+}	
+#main .block.shiny {
+	background: url(../images/blue_shiny.png);
+}	
+	#main .block.pokemon_compact {
+		float: left;
+		width: 300px;
+		min-height: 32px;
+		margin: 0 10px 10px 0;
+	}
+	
+	#main .block.pokemon_compact .image {
+		float: left;
+		margin-bottom: 5px;
+	}
+
+	#main .block.pokemon_compact .name {
+		float: left;
+		line-height: 30px;
+		margin-left: 7px;
+		/*width: 220px;*/
+		font-weight: bold;
+	}
+	
+	#main .block.pokemon_compact .level {
+		float: right;
+		margin-top: 0px;
+		text-align: right;
+		/*width: 45px;*/
+	}
+	
+	#main .block.pokemon_compact .moves {
+		clear: both;
+	}
+
+		#main .block.pokemon_compact .moves table {
+			border-collapse: collapse;
+			width: 100%;
+			height: 54px;
+			border-top: 1px solid #8C8C8C;
+		}
+		
+		#main .block.pokemon_compact .moves .left {
+			border-bottom: 1px solid #8C8C8C;
+			border-right: 1px solid #8C8C8C;
+			text-align: right;
+			padding: 2px 5px 2px 2px;
+			width: 50%;
+		}
+
+		#main .block.pokemon_compact .moves .right {
+			border-bottom: 1px solid #8C8C8C;
+			padding: 2px 2px 2px 5px;
+			width: 50%;
+		}
+	
+	#main .block.pokemon_compact .actions {
+		padding-top: 6px;
+		text-align: center;
+	}
+
+/**** ITEM ****/
+#main .block.item {
+	float: left;
+	width: 150px;
+	min-height: 32px;
+	margin: 0 10px 10px 0;
+}
+	#main .block.item .image_holder {
+		float: left;
+		margin-bottom: 5px;
+	}
+	
+	#main .block.item .image_center {
+		height: 30px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	#main .block.item .name {
+		float: left;
+		line-height: 32px;
+		margin-left: 7px;
+	}
+	
+	#main .block.item .total {
+		float: right;
+		margin-top: -6px;
+	}
+	
+	#main .block.item .description {
+		border-top: 1px solid #8C8C8C;
+		clear: both;
+		line-height: 17px;
+		padding-top: 4px;
+		width: 100%;
+	}
+
+/**** REQUEST TABLE ****/
+#main .block .request_table {
+	border-collapse: collapse;
+}
+
+	#main .block .request_table td.request_left {
+		width: 256px;
+		vertical-align: top;
+	}
+
+	#main .block .request_table td.request_middle {
+		width: 18px;
+		padding-top: 65px;
+		vertical-align: top;
+	}
+
+	#main .block .request_table td.request_right {
+		width: auto;
+	}
+
+	#main .block .request_table .block.party {
+		float: left;
+		padding: 0px;
+		margin: 5px 0 9px 5px;
+	}
+
+	#main .block .request_table .block.party .pokemon_compact {
+		margin: 5px !important;
+		box-shadow: none;
+	}
+	
+	#main .block .request_table .block.party .actions {
+		padding: 0 0 6px 3px;
+		text-align: center;
+	}
+	
+	#main .block .request_table .block.pokemon_compact {
+		margin: 5px 5px 10px;
+	}
+
+	#main .block .request_table td.request_right .block.pokemon_compact {
+		width: 223px;
+	}
+
+	#main .block .request_table td.request_right .block.pokemon_compact .name {
+		width: 184px;
+	}
+	
+	#main .block .request_table td.request_left .block.pokemon_compact .actions, #main .block .request_table td.request_right .block.pokemon_compact .actions {
+		padding: 12px 0 6px;
+	}
+
+/**** AD ****/
+#main .block_ad {
+	margin-bottom: 10px;
+	width: 100%;
+}
+	
+	#main .block_ad .position {
+		width: 728px;
+		height: 90px;
+		margin: 0 auto;
+		background: #000;
+		color: #fff;
+	}
+	
+/**************** GLOBAL *****************/
+/**** PROFILE DETAILED ****/
+#main .profile a, #main .profile a:hover {
+	display: inline-block;
+    margin-left: 11px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#main .profile a:first-child  {
+	margin-left: 0px;
+}
+
+#main  .profile a .block {
+	width: 250px;
+	float:left;
+	color: #000;
+}
+
+#main .profile a .block:hover {
+	background: url(../images/blue_shiny.png);
+}
+	
+.block .content .profile_top {
+	display: inline-block;
+}
+	.block .content .profile_top .avatar {
+		float: left;
+		margin-right: 5px;
+	}
+	
+	.block .content .profile_top .name {
+		float: left;
+		font-size: 19px;
+		padding-top: 2px;
+	}
+
+.block .content .profile_middle {
+	clear: both;
+	border-top: 1px solid #8C8C8C;
+	margin-top: 5px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+	.block .content .profile_middle .pkmn_red {
+		color: #FF0000;
+	}
+	
+	.block .content .profile_middle .pkmn_blue {
+		color: #0041FF;
+	}
+
+	.block .content .profile_middle .info_text {
+		width: 97px;
+		display: inline-block;
+	}
+
+.block .content .profile_bottom {
+	border-top: 1px solid #8C8C8C;
+	margin-top: 5px;
+	padding-top: 6px;
+	text-align: center;
+}
